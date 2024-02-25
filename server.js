@@ -5,7 +5,7 @@ const fs = require('fs').promises
 
 const app = express()
 
-const herkut = require('./herkut.json')
+const herkut = require('./Herkut.json')
 
 //GET ALL etsitään kaikki namit jsonista
 app.get('/api/herkut', (req, res) => {
